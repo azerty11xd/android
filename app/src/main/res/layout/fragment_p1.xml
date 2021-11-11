@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#edf0f6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".parentsFragment.P1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    />
+
+
+    <nl.joery.animatedbottombar.AnimatedBottomBar
+
+        android:id="@+id/mainbar2"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+
+        app:abb_indicatorAppearance="round"
+        app:abb_indicatorColor="#F95A76"
+        app:abb_indicatorHeight="4dp"
+        app:abb_indicatorLocation="bottom"
+        app:abb_indicatorMargin="5dp"
+
+        app:abb_selectedTabType="icon"
+        app:abb_tabAnimation="slide"
+        app:abb_tabAnimationSelected="slide"
+        app:abb_tabColorSelected="#F95A76"
+        app:abb_tabs="@menu/menu" />
+
+</FrameLayout>
